@@ -60,5 +60,5 @@ void loop() {
   lcd.print("Scan next card...");
 
   rfid.PICC_HaltA(); // Stop reading current card
-  delay(1000);       // small delay before next read
+  delay(1010);       // small delay before next read
 }
